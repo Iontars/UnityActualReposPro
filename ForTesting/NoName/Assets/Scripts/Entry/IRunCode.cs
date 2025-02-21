@@ -2,6 +2,7 @@
 {
     public interface IRunCode
     {
-        public bool Run();
+        public void Run();
+        public bool Check();
     }
 }

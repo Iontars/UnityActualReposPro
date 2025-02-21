@@ -18,13 +18,13 @@ public class OneScri : MonoBehaviour, IRunCode
         
     }
 
-    public bool Run()
+    public void Run()
     {
-        if (isBegan)
-        {
-            print(GetType().Name);
-            return true;
-        }
-        return false;
+        print(GetType().Name);
+    }
+
+    public bool Check()
+    {
+        return isBegan;
     }
 }

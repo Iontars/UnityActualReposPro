@@ -5,14 +5,14 @@ namespace Entry
     public class Three : MonoBehaviour, IRunCode
     {
         [SerializeField] private TwoScri _twoScri;
-        public bool Run()
+        public void Run()
         {
-            if (_twoScri != null)
-            {
-                print(GetType().Name);
-                return true;
-            }
-            return false;
+            print(GetType().Name);
+        }
+
+        public bool Check()
+        {
+            return _twoScri != null;
         }
     }
 }

@@ -18,13 +18,13 @@ public class TwoScri : MonoBehaviour, IRunCode
         
     }
     
-    public bool Run()
+    public void Run()
     {
-        if (_oneScri != null)
-        {
-            print(GetType().Name);
-            return true;
-        }
-        return false;
+        print(GetType().Name);
+    }
+
+    public bool Check()
+    {
+        return _oneScri != null;
     }
 }
