@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 37757a5d333c59449966429415f820f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5309705264531460219
+    second: Element_Game_58-Photoroom_0
+  - first:
+      213: 1018822716888606969
+    second: Element_Game_58-Photoroom_1
+  - first:
+      213: 8299807210809542080
+    second: Element_Game_58-Photoroom_2
+  - first:
+      213: 4540923268417514831
+    second: Element_Game_58-Photoroom_3
+  - first:
+      213: -639651758981786920
+    second: Element_Game_58-Photoroom_4
+  - first:
+      213: -6847451880232552250
+    second: Element_Game_58-Photoroom_5
+  - first:
+      213: -1457207405677788404
+    second: Element_Game_58-Photoroom_6
+  - first:
+      213: 3855551870139915731
+    second: Element_Game_58-Photoroom_7
+  - first:
+      213: 3617237233550468595
+    second: Element_Game_58-Photoroom_8
+  - first:
+      213: 6437147289733161430
+    second: Element_Game_58-Photoroom_9
+  - first:
+      213: -2578432186121961674
+    second: Element_Game_58-Photoroom_10
+  - first:
+      213: -563355176828070246
+    second: Element_Game_58-Photoroom_11
+  - first:
+      213: -4235772671748599410
+    second: Element_Game_58-Photoroom_12
+  - first:
+      213: -746735017673036924
+    second: Element_Game_58-Photoroom_13
+  - first:
+      213: -3839034642513745983
+    second: Element_Game_58-Photoroom_14
+  - first:
+      213: -8022102654775238496
+    second: Element_Game_58-Photoroom_15
+  - first:
+      213: -5453779913721795485
+    second: Element_Game_58-Photoroom_16
+  - first:
+      213: -4305962531580259472
+    second: Element_Game_58-Photoroom_17
+  - first:
+      213: 8010358805400139159
+    second: Element_Game_58-Photoroom_18
+  - first:
+      213: -5598236607489390485
+    second: Element_Game_58-Photoroom_19
+  - first:
+      213: -435118985571635525
+    second: Element_Game_58-Photoroom_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 654
+        width: 193
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa495a1332056b0800000000000000
+      internalID: -5309705264531460219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 641
+        width: 184
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f86e31fcd5932e00800000000000000
+      internalID: 1018822716888606969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 641
+        width: 193
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c547881fa6de2370800000000000000
+      internalID: 8299807210809542080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 612
+        width: 210
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4de45e57a9940f30800000000000000
+      internalID: 4540923268417514831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 636
+        width: 309
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2dfed3d108f17f0800000000000000
+      internalID: -639651758981786920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 453
+        width: 264
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c878265bc6f8f0a0800000000000000
+      internalID: -6847451880232552250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 493
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03c18cc595f6cbe0800000000000000
+      internalID: -1457207405677788404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 505
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd58c09ffba18530800000000000000
+      internalID: 3855551870139915731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 507
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5a7165912033230800000000000000
+      internalID: 3617237233550468595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 508
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1e963ca57555950800000000000000
+      internalID: 6437147289733161430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 509
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f34cc7691973cd0800000000000000
+      internalID: -2578432186121961674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 509
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9619c2937f8e28f0800000000000000
+      internalID: -563355176828070246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 504
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811e1772338735c0800000000000000
+      internalID: -4235772671748599410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 450
+        width: 311
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48be042357013a5f0800000000000000
+      internalID: -746735017673036924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 265
+        width: 264
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7ac8c255209bac0800000000000000
+      internalID: -3839034642513745983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 66
+        width: 563
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0676e6324cba090800000000000000
+      internalID: -8022102654775238496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 264
+        width: 137
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca37750184054b0800000000000000
+      internalID: -5453779913721795485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 264
+        width: 134
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073540934e52e34c0800000000000000
+      internalID: -4305962531580259472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 77
+        width: 261
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7953c4f84e28a2f60800000000000000
+      internalID: 8010358805400139159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 90
+        width: 137
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68c10a57711f42b0800000000000000
+      internalID: -5598236607489390485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 93
+        width: 134
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe69f5869526f9f0800000000000000
+      internalID: -435118985571635525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Element_Game_58-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 486
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c72e04e5806964baee47b24c785082
+      internalID: -730704097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb6c6c0051e78ef459cc013e2fd2d60f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Element_Game_58-Photoroom_0: -5309705264531460219
+      Element_Game_58-Photoroom_1: 1018822716888606969
+      Element_Game_58-Photoroom_10: -2578432186121961674
+      Element_Game_58-Photoroom_11: -563355176828070246
+      Element_Game_58-Photoroom_12: -4235772671748599410
+      Element_Game_58-Photoroom_13: -746735017673036924
+      Element_Game_58-Photoroom_14: -3839034642513745983
+      Element_Game_58-Photoroom_15: -8022102654775238496
+      Element_Game_58-Photoroom_16: -5453779913721795485
+      Element_Game_58-Photoroom_17: -4305962531580259472
+      Element_Game_58-Photoroom_18: 8010358805400139159
+      Element_Game_58-Photoroom_19: -5598236607489390485
+      Element_Game_58-Photoroom_2: 8299807210809542080
+      Element_Game_58-Photoroom_20: -435118985571635525
+      Element_Game_58-Photoroom_21: -730704097
+      Element_Game_58-Photoroom_3: 4540923268417514831
+      Element_Game_58-Photoroom_4: -639651758981786920
+      Element_Game_58-Photoroom_5: -6847451880232552250
+      Element_Game_58-Photoroom_6: -1457207405677788404
+      Element_Game_58-Photoroom_7: 3855551870139915731
+      Element_Game_58-Photoroom_8: 3617237233550468595
+      Element_Game_58-Photoroom_9: 6437147289733161430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
