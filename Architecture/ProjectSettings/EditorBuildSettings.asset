@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameTemplate/Scenes/GameTamplateMain.unity
     guid: 3ee7749f6f3e86b43bda061a8780f585
+  - enabled: 1
+    path: Assets/DoTwin/Scene/DoTwin.unity
+    guid: 968a6f2b0807d354fb9e33de9664a35d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
