@@ -30,7 +30,7 @@ namespace DI.Scripts
             _input.Drag += OnDrag;
 
         }
-
+        
         public void OnClickDown(Vector3 position)
         {
             Debug.Log("Down");

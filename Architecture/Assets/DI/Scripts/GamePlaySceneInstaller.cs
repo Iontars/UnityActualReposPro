@@ -17,21 +17,21 @@ namespace DI.Scripts
         
         public override void InstallBindings()
         {
-            switch (_input)
-            {
-                case MyEnum.DesktopInput:
-                    Container.Bind<IInput>().To<DesktopInput>().FromNew().AsSingle();
-                    break;
-                case MyEnum.MobileInput:
-                    Container.Bind<IInput>().To<MobileInput>().FromNew().AsSingle();
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            } 
+            // switch (_input)
+            // {
+            //     case MyEnum.DesktopInput:
+            //         Container.Bind<IInput>().To<DesktopInput>().FromNew().AsSingle();
+            //         break;
+            //     case MyEnum.MobileInput:
+            //         Container.Bind<IInput>().To<MobileInput>().FromNew().AsSingle();
+            //         break;
+            //     default:
+            //         throw new ArgumentOutOfRangeException();
+            // } 
             
             
-            Container.Bind<MovementHandler>().FromNew().AsSingle();
-            Container.Bind<TestClass>().FromNew().AsSingle().NonLazy();
+            //Container.Bind<MovementHandler>().FromNew().AsSingle();
+            //Container.Bind<TestClass>().FromNew().AsSingle().NonLazy();
         }
     }
 }

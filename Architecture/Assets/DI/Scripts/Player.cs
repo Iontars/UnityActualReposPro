@@ -12,5 +12,4 @@ public class Player : MonoBehaviour
         _movementHandler = movementHandler;
         Debug.Log(_movementHandler.ToString());
     }
-    
 }
