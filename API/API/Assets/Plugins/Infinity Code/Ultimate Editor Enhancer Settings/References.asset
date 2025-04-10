@@ -184,10 +184,4 @@ MonoBehaviour:
     customWindowSize: {x: 400, y: 300}
     alignWindowToBar: 1
     windowMode: 0
-  _sceneHistory:
-  - name: EventsScene
-    path: Assets/Events/Scenes/EventsScene.unity
-  - name: Main
-    path: Assets/Boot/Scenes/Main.unity
-  - name: 2d move
-    path: Assets/2d move/Scene/2d move.unity
+  _sceneHistory: []

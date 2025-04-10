@@ -176,38 +176,43 @@ public class ShapesArray
     /// <returns></returns>
     private IEnumerable<GameObject> GetMatchesHorizontally(GameObject go)
     {
-        List<GameObject> matches = new List<GameObject>();
-        matches.Add(go);
-        var shape = go.GetComponent<Shape>();
-        //check left
-        if (shape.Column != 0)
-            for (int column = shape.Column - 1; column >= 0; column--)
-            {
-                if (shapes[shape.Row, column].GetComponent<Shape>().IsSameType(shape))
+        if (go != null)
+        {
+            List<GameObject> matches = new List<GameObject>();
+            matches.Add(go);
+            var shape = go.GetComponent<Shape>();
+            //check left
+            if (shape.Column != 0)
+                for (int column = shape.Column - 1; column >= 0; column--)
                 {
-                    matches.Add(shapes[shape.Row, column]);
+                    if (shapes[shape.Row, column].GetComponent<Shape>().IsSameType(shape))
+                    {
+                        matches.Add(shapes[shape.Row, column]);
+                    }
+                    else
+                        break;
                 }
-                else
-                    break;
-            }
 
-        //check right
-        if (shape.Column != Constants.Columns - 1)
-            for (int column = shape.Column + 1; column < Constants.Columns; column++)
-            {
-                if (shapes[shape.Row, column].GetComponent<Shape>().IsSameType(shape))
+            //check right
+            if (shape.Column != Constants.Columns - 1)
+                for (int column = shape.Column + 1; column < Constants.Columns; column++)
                 {
-                    matches.Add(shapes[shape.Row, column]);
+                    if (shapes[shape.Row, column].GetComponent<Shape>().IsSameType(shape))
+                    {
+                        matches.Add(shapes[shape.Row, column]);
+                    }
+                    else
+                        break;
                 }
-                else
-                    break;
-            }
 
-        //we want more than three matches
-        if (matches.Count < Constants.MinimumMatches)
-            matches.Clear();
+            //we want more than three matches
+            if (matches.Count < Constants.MinimumMatches)
+                matches.Clear();
+            
+            return matches.Distinct();
+        }
 
-        return matches.Distinct();
+        return default;
     }
 
     /// <summary>
