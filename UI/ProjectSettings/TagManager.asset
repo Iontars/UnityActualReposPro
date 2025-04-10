@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UI_Sprite
   - Water
   - UI
-  - 
+  - UI_Text
   - 
   - 
   - 
