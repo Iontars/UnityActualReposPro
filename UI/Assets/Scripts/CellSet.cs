@@ -10,29 +10,19 @@ public class CellSet : MonoBehaviour
         
     }
     
-    [SerializeField][Range(-10.000f, 10.000f)] private float _x;
-    [SerializeField][Range(-10f, 10f)] private float _y;
+    [SerializeField][Range(-1000f, 1000f)] private float _x;
+    [SerializeField][Range(-1000f, 1000f)] private float _y;
     private Vector2 _position;
 
     private void OnValidate()
     {
-        AssingPosition(_position);
+        AssignPosition(_position);
     }
 
-    private void AssingPosition(Vector2 position)
+    private void AssignPosition(Vector2 position)
     {
-        position = new Vector2(_x, _y);
+        position = new Vector2(_x * 0.01f, _y * 0.01f);
         transform.position = position;
     }
-    
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
