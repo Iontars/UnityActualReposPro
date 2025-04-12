@@ -38,52 +38,40 @@ public class ClockController : MonoBehaviour, IDisposable
             timerValue = (timerValue >= _minutes) ? 0 : ++timerValue;
             timeMinuteText.text = timerValue.ToString("D2");
         }
-        else
-        {
-            Debug.LogWarning("Текст не является числом!");
-        }
+        else Debug.LogWarning("Текст не является числом!");
         UpdateTimeDisplay();
     }
 
     public void DecreaseMinutes()
     {
-        if (int.TryParse(timeMinuteText.text, out int timerValue))
+        if (int.TryParse(timeMinuteText.text, out var timerValue))
         {
             timerValue = (timerValue <= 0) ? _minutes : --timerValue;
             timeMinuteText.text = timerValue.ToString("D2");
         }
-        else
-        {
-            Debug.LogWarning("Текст не является числом!");
-        }
+        else Debug.LogWarning("Текст не является числом!");
         UpdateTimeDisplay();
     }
 
     public void IncreaseSeconds()
     {
-        if (int.TryParse(timeSecondText.text, out int timerValue))
+        if (int.TryParse(timeSecondText.text, out var timerValue))
         {
             timerValue = (timerValue >= _seconds) ? 0 : ++timerValue;
             timeSecondText.text = timerValue.ToString("D2");
         }
-        else
-        {
-            Debug.LogWarning("Текст не является числом!");
-        }
+        else Debug.LogWarning("Текст не является числом!");
         UpdateTimeDisplay();
     }
 
     public void DecreaseSeconds()
     {
-        if (int.TryParse(timeSecondText.text, out int timerValue))
+        if (int.TryParse(timeSecondText.text, out var timerValue))
         {
             timerValue = (timerValue <= 0) ? _seconds : --timerValue;
             timeSecondText.text = timerValue.ToString("D2");
         }
-        else
-        {
-            Debug.LogWarning("Текст не является числом!");
-        }
+        else Debug.LogWarning("Текст не является числом!");
         UpdateTimeDisplay();
     }
 
