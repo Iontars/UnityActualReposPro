@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicPanel : SelectPanel
+public class MusicPanel : UIPanel
 {
     //Возможные расширения
 }

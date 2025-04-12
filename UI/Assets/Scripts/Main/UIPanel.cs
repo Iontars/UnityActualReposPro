@@ -1,18 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIPanel : MonoBehaviour
+public abstract class UIPanel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private GameObject _myChild;
+    public Action<GameObject> OnSelect;
 
-    // Update is called once per frame
-    void Update()
+    public GameObject MyChild { get; private set; }
+    private void OnEnable()
+    { 
+        _myChild = transform.GetChild(0).gameObject;
+        MyChild = _myChild;
+    }
+    
+    private GameObject GetMyChild() => _myChild;
+    
+    private void OnMouseDown()
     {
-        
+        OnSelect?.Invoke(GetMyChild());
     }
 }
