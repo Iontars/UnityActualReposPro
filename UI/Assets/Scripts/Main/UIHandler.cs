@@ -7,7 +7,7 @@ public abstract class UIHandler<T> : MonoBehaviour  where T: UIPanel
     [Header("Элементы UI")]
     [SerializeField] private List<T> elements;
     
-    private void SetActivePanel(GameObject go)
+    protected virtual void SetActivePanel(GameObject go)
     {
         foreach (var item in elements)
         {
