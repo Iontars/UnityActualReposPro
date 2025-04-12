@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckBoxHandler : MonoBehaviour, IDisposable
+public class FlagButtonHandler : MonoBehaviour, IDisposable
 {
-    [SerializeField] private List<RadioButtonBoxPanel>  checkboxes;
+    [Header("Чек боксы кнопки")][Space]
+    [SerializeField] private List<FlagButtonPanel>  checkboxes;
     
     private void SetActivePanel(GameObject go)
     {

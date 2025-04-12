@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ClockController : MonoBehaviour, IDisposable
+public class ClockHandler : MonoBehaviour, IDisposable
 {
     [Header("Кнопки управления будильником")][Space]
     [SerializeField] private MinuteDownButton minuteDownButton;
