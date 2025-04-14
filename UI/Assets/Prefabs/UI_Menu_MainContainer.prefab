@@ -31,7 +31,6 @@ Transform:
   m_Children:
   - {fileID: 8131805539782571737}
   - {fileID: 7572093214287729143}
-  - {fileID: 4964653139534045429}
   m_Father: {fileID: 2627091654323851250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &83467571573202172
@@ -46,7 +45,7 @@ GameObject:
   - component: {fileID: 6182218184728499606}
   - component: {fileID: 2641090552656988597}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,7 +473,7 @@ GameObject:
   - component: {fileID: 5524611140836603489}
   - component: {fileID: 8945622023597573203}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -815,7 +814,7 @@ GameObject:
   - component: {fileID: 8037115956026619379}
   - component: {fileID: 3906039286965746447}
   m_Layer: 7
-  m_Name: 03
+  m_Name: Frame_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -899,7 +898,7 @@ GameObject:
   - component: {fileID: 3613167306784405288}
   - component: {fileID: 5224729814364716011}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_6
+  m_Name: RadioButton_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1039,7 +1038,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1050,7 +1049,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &3269679173633688558
 MonoBehaviour:
@@ -1064,37 +1063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb827878ce494b74aa93ad23fe78d80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &535252423153586431
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2233016241310807270}
-  m_Layer: 8
-  m_Name: Menu_01_Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2233016241310807270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535252423153586431}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.25, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5827544122527106558}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &544576405786864704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,7 +1074,7 @@ GameObject:
   - component: {fileID: 4188489064254706208}
   - component: {fileID: 3905939787371518752}
   m_Layer: 7
-  m_Name: 04
+  m_Name: Frame_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1363,7 +1331,7 @@ GameObject:
   - component: {fileID: 4507321590334634877}
   - component: {fileID: 9195433168328816136}
   m_Layer: 7
-  m_Name: UI_Menu_SpinUpButtonRight
+  m_Name: SpinUpButtonRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1505,7 +1473,7 @@ GameObject:
   - component: {fileID: 2169858601260869912}
   - component: {fileID: 8270382133210887416}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1675,7 +1643,7 @@ GameObject:
   - component: {fileID: 6039763156012380577}
   - component: {fileID: 318106940208393680}
   m_Layer: 0
-  m_Name: UI_Menu_FlagElement
+  m_Name: FlagElement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,37 +1716,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &901173002195611980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1522244112325010978}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1522244112325010978
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901173002195611980}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5981278607485755807}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995546256411569754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,7 +1851,7 @@ GameObject:
   - component: {fileID: 4712986327284240560}
   - component: {fileID: 3907947590113496858}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2155,7 +2092,7 @@ GameObject:
   - component: {fileID: 5170150940333148088}
   - component: {fileID: 2357137010318933532}
   m_Layer: 7
-  m_Name: UI_Menu_SpinDownButtonRight
+  m_Name: SpinDownButtonRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2328,7 +2265,7 @@ GameObject:
   - component: {fileID: 2040924434790553041}
   - component: {fileID: 1740372118541092827}
   m_Layer: 7
-  m_Name: UI_Menu_FadeFrame
+  m_Name: FadeFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2436,68 +2373,6 @@ Transform:
   - {fileID: 3893190224027762570}
   m_Father: {fileID: 552530913987639488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1777084893839969150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4293920330395505535}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4293920330395505535
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777084893839969150}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1304679888372324508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1837508581750418775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9123092226594588398}
-  m_Layer: 8
-  m_Name: Menu_01_Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9123092226594588398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837508581750418775}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.25, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5045702471203931867}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859523211021384521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,7 +2384,7 @@ GameObject:
   - component: {fileID: 5549251213411380765}
   - component: {fileID: 4304074329770417985}
   m_Layer: 7
-  m_Name: 01
+  m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2593,7 +2468,7 @@ GameObject:
   - component: {fileID: 4698046199016589867}
   - component: {fileID: 2249583768629980039}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_2
+  m_Name: RadioButton_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2934,7 +2809,7 @@ GameObject:
   - component: {fileID: 8956763383823585964}
   - component: {fileID: 6397765766044585025}
   m_Layer: 7
-  m_Name: Text (TMP)
+  m_Name: DoneButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3126,37 +3001,6 @@ Transform:
   - {fileID: 3710248945174613819}
   - {fileID: 2040924434790553041}
   m_Father: {fileID: 9181059449897209588}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1977098265982687756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7492552537907195729}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7492552537907195729
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977098265982687756}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 33454884620484871}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1980302082356225999
 GameObject:
@@ -3409,7 +3253,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3420,7 +3264,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &2810337122113812969
 MonoBehaviour:
@@ -3547,7 +3391,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3558,7 +3402,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &2223153136118733233
 GameObject:
@@ -3571,7 +3415,7 @@ GameObject:
   - component: {fileID: 62840242308162536}
   - component: {fileID: 6897955360455759117}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_1
+  m_Name: RadioButton_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3676,7 +3520,6 @@ Transform:
   m_Children:
   - {fileID: 5981278607485755807}
   - {fileID: 2156244428242931595}
-  - {fileID: 2233016241310807270}
   m_Father: {fileID: 3033871799063363952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2405578674658195157
@@ -4066,7 +3909,7 @@ GameObject:
   - component: {fileID: 536385750083097823}
   - component: {fileID: 343593176102883054}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4526,7 +4369,7 @@ GameObject:
   - component: {fileID: 7652684260289180892}
   - component: {fileID: 245444186805265411}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_5
+  m_Name: RadioButton_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4702,7 +4545,7 @@ GameObject:
   - component: {fileID: 6571796840536203310}
   - component: {fileID: 5927988841985439875}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5015,8 +4858,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4189985488447254010}
-  - {fileID: 3568083820358739936}
-  - {fileID: 4293920330395505535}
   m_Father: {fileID: 2627091654323851250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3438330177125808595
@@ -5098,7 +4939,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5109,7 +4950,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &3521833145021651402
 GameObject:
@@ -5141,8 +4982,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3260756954556026114}
-  - {fileID: 1020003394773868108}
-  - {fileID: 1522244112325010978}
   m_Father: {fileID: 5827544122527106558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3563775523310001086
@@ -5158,7 +4997,7 @@ GameObject:
   - component: {fileID: 976370339660301445}
   - component: {fileID: 5636217568104490342}
   m_Layer: 7
-  m_Name: UI_Menu_SpinUpButtonLeft
+  m_Name: SpinUpButtonLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5300,7 +5139,7 @@ GameObject:
   - component: {fileID: 2029187889565283233}
   - component: {fileID: 8404630656529370930}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Text_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5616,37 +5455,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2171400f7b43614b99e51c83e843ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &4045423447068058258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3568083820358739936}
-  m_Layer: 7
-  m_Name: LeftSide_DynamicElements
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3568083820358739936
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4045423447068058258}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1304679888372324508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4170811120358669429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,7 +5466,7 @@ GameObject:
   - component: {fileID: 2230631065226989918}
   - component: {fileID: 2238126151668147680}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_3
+  m_Name: RadioButton_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5824,37 +5632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2171400f7b43614b99e51c83e843ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &4214002788814851648
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1020003394773868108}
-  m_Layer: 7
-  m_Name: LeftSide_DynamicElements
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1020003394773868108
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214002788814851648}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5981278607485755807}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4226708199640226648
 GameObject:
   m_ObjectHideFlags: 0
@@ -6018,7 +5795,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6029,7 +5806,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &4272204775743131710
 GameObject:
@@ -6098,7 +5875,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6109,7 +5886,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &5170722200313951159
 MonoBehaviour:
@@ -6134,7 +5911,7 @@ GameObject:
   - component: {fileID: 5509818223307636906}
   - component: {fileID: 1447599815310716488}
   m_Layer: 7
-  m_Name: UI_Menu_ChoiceFrame_3
+  m_Name: ChoiceFrame_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6318,7 +6095,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6329,7 +6106,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &4395579245409458795
 GameObject:
@@ -6533,7 +6310,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6544,7 +6321,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &4559313306054018801
 GameObject:
@@ -6877,7 +6654,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6888,39 +6665,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
---- !u!1 &4761702121419520520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8691473982594726100}
-  m_Layer: 7
-  m_Name: LeftSide_DynamicElements
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8691473982594726100
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4761702121419520520}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7529942197678643853}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4889613037011780423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,7 +6678,7 @@ GameObject:
   - component: {fileID: 6001159091726483145}
   - component: {fileID: 7394002822656958219}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_3
+  m_Name: RadioButton_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7072,7 +6818,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7083,7 +6829,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &8339202300031210996
 MonoBehaviour:
@@ -7394,7 +7140,6 @@ Transform:
   m_Children:
   - {fileID: 1304679888372324508}
   - {fileID: 8071776879514453402}
-  - {fileID: 7312679755132038380}
   m_Father: {fileID: 4191729829907568711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5506170077791338955
@@ -7446,7 +7191,7 @@ GameObject:
   - component: {fileID: 2117376731453314727}
   - component: {fileID: 1635869231187959569}
   m_Layer: 7
-  m_Name: UI_Menu_SpinDownButtonLeft
+  m_Name: SpinDownButtonLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7576,37 +7321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578b1b4945fb48acb6657c291841221c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &5542394910330286861
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 40404633685248963}
-  m_Layer: 8
-  m_Name: Menu_01_Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &40404633685248963
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5542394910330286861}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.44, y: -3.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6210489263911072227}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5621000685387102638
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,37 +7405,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &5646442256346643945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7841869418261390054}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7841869418261390054
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646442256346643945}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7529942197678643853}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5650878207224131416
 GameObject:
   m_ObjectHideFlags: 0
@@ -7733,7 +7416,7 @@ GameObject:
   - component: {fileID: 8275005666662165516}
   - component: {fileID: 782053013509139198}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_5
+  m_Name: RadioButton_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7837,8 +7520,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6241148671077544842}
-  - {fileID: 8691473982594726100}
-  - {fileID: 7841869418261390054}
   m_Father: {fileID: 6210489263911072227}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5659054911164615449
@@ -7853,7 +7534,7 @@ GameObject:
   - component: {fileID: 2349216475136097702}
   - component: {fileID: 7677252237672165691}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8044,37 +7725,6 @@ Transform:
   - {fileID: 1253542850699228594}
   m_Father: {fileID: 6118181176272393378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5911475970082565184
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8762473075233555226}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8762473075233555226
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5911475970082565184}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2156244428242931595}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5919423384434644527
 GameObject:
   m_ObjectHideFlags: 0
@@ -8154,7 +7804,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8165,7 +7815,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &5960385851514854357
 GameObject:
@@ -8179,7 +7829,7 @@ GameObject:
   - component: {fileID: 1174193938053247685}
   - component: {fileID: 2420887045942023690}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8349,7 +7999,7 @@ GameObject:
   - component: {fileID: 3710248945174613819}
   - component: {fileID: 857433352312178529}
   m_Layer: 7
-  m_Name: UI_Menu_TimeFrame
+  m_Name: TimeFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8593,37 +8243,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4415866462800192357}
   m_maskType: 0
---- !u!1 &6042049963087721701
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4964653139534045429}
-  m_Layer: 7
-  m_Name: LeftSide_ClickCatchers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4964653139534045429
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6042049963087721701}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8071776879514453402}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6205146889153520134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8994,7 +8613,6 @@ Transform:
   m_Children:
   - {fileID: 552530913987639488}
   - {fileID: 33454884620484871}
-  - {fileID: 9123092226594588398}
   m_Father: {fileID: 687698753217266316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6377074671349765537
@@ -9008,7 +8626,7 @@ GameObject:
   - component: {fileID: 5714001696778804522}
   - component: {fileID: 4719500478310044093}
   m_Layer: 7
-  m_Name: UI_Menu_ChoiceFrame_2
+  m_Name: ChoiceFrame_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9307,7 +8925,7 @@ GameObject:
   - component: {fileID: 6900915790573254649}
   - component: {fileID: 1629640209293813307}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_7
+  m_Name: RadioButton_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9429,7 +9047,7 @@ GameObject:
   - component: {fileID: 1855998075419587165}
   - component: {fileID: 3829211250572652320}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9588,37 +9206,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1855998075419587165}
   m_maskType: 0
---- !u!1 &6940048683871823665
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7312679755132038380}
-  m_Layer: 8
-  m_Name: Menu_01_Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7312679755132038380
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6940048683871823665}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.25, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2627091654323851250}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6955665083389959806
 GameObject:
   m_ObjectHideFlags: 0
@@ -9893,7 +9480,7 @@ GameObject:
   - component: {fileID: 2327390611452782965}
   - component: {fileID: 2573988149685277655}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_1
+  m_Name: RadioButton_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9997,7 +9584,6 @@ Transform:
   m_Children:
   - {fileID: 192340251812756315}
   - {fileID: 4674393588672731245}
-  - {fileID: 7492552537907195729}
   m_Father: {fileID: 5045702471203931867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7087120014660392952
@@ -10220,7 +9806,7 @@ GameObject:
   - component: {fileID: 8441637250946990105}
   - component: {fileID: 3505917326140663552}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_4
+  m_Name: RadioButton_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10305,7 +9891,7 @@ GameObject:
   - component: {fileID: 1439056822651202441}
   - component: {fileID: 6462132721028550945}
   m_Layer: 0
-  m_Name: UI_Menu_FlagElement
+  m_Name: FlagElement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10366,7 +9952,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: f4960a51cd0275b4c93288bb5f7295da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10473,7 +10059,7 @@ GameObject:
   - component: {fileID: 5494553686271496915}
   - component: {fileID: 1210778990170892370}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_2
+  m_Name: RadioButton_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10577,7 +10163,6 @@ Transform:
   m_Children:
   - {fileID: 7529942197678643853}
   - {fileID: 9181059449897209588}
-  - {fileID: 40404633685248963}
   m_Father: {fileID: 3327632003303962101}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7477405525797974322
@@ -10626,7 +10211,7 @@ GameObject:
   - component: {fileID: 2229544266931930607}
   - component: {fileID: 1561756204375816877}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text^
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11023,7 +10608,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11034,7 +10619,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &7620431878149413570
 MonoBehaviour:
@@ -11230,7 +10815,7 @@ GameObject:
   - component: {fileID: 2369602885830021758}
   - component: {fileID: 70660075021772996}
   m_Layer: 7
-  m_Name: 02
+  m_Name: Frame_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11370,7 +10955,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11381,7 +10966,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.6, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &236164943512498783
 MonoBehaviour:
@@ -11406,7 +10991,7 @@ GameObject:
   - component: {fileID: 2263316697592134052}
   - component: {fileID: 1686656489436582878}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_6
+  m_Name: RadioButton_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11660,7 +11245,7 @@ GameObject:
   - component: {fileID: 8382952762230427593}
   - component: {fileID: 1077132550244428315}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Text_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11945,7 +11530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6241148671077544842}
   m_Layer: 7
-  m_Name: LeftSide_StaticElements
+  m_Name: StaticElements
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11978,7 +11563,7 @@ GameObject:
   - component: {fileID: 7412005342474247947}
   - component: {fileID: 3252880052660708583}
   m_Layer: 0
-  m_Name: UI_Menu_RadioButton_4
+  m_Name: RadioButton_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12595,7 +12180,6 @@ Transform:
   m_Children:
   - {fileID: 1230000220986440337}
   - {fileID: 9203688296979481861}
-  - {fileID: 8762473075233555226}
   m_Father: {fileID: 5827544122527106558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8845711059949046205
