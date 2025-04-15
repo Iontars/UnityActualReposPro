@@ -804,6 +804,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3905939787371518752, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 4485536758237459822, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -811,6 +815,10 @@ PrefabInstance:
     - target: {fileID: 4719500478310044093, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985719121252128066, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5506170077791338955, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_Name
@@ -820,23 +828,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChoiceFrame_4
       objectReference: {fileID: 0}
+    - target: {fileID: 6183431894309769646, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6351812941800687281, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6462132721028550945, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337053428724839026, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8129146537419683140, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_Name
       value: ChoiceFrame_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8230607236796012061, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 8827527979009974234, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9069599683466531110, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

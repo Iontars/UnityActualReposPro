@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -75,6 +73,7 @@ public class ClockHandler : MonoBehaviour, IDisposable
         UpdateTimeDisplay();
     }
 
+    
     private void OnEnable()
     {
         minuteDownButton.ClickMinuteDownButton += DecreaseMinutes;

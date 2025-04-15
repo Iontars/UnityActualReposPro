@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1608800583496322556}
   - component: {fileID: 58961664154848808}
   m_Layer: 0
-  m_Name: Visual Effect_2
+  m_Name: RightBoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
