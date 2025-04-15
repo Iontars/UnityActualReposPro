@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -6,26 +7,16 @@ public class PupupHandler : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] private StartAnimButton _startAnimButton;
-    [SerializeField] private VisualEffect _skyVFX;
-    [SerializeField] private VisualEffect _leftPetard;
-    [SerializeField] private VisualEffect _rightPetard;
-    
-    private AnimatorStateInfo stateInfo;
-
-
-    private void Awake()
-    {
-        
-    }
-
+    [SerializeField] private List<VisualEffect> _vfxEffects;
+    private float _vfxOnSet = 0.2f;
     
     private void RunPopupAnim()
     {
         _animator.gameObject.SetActive(true);
         _animator.SetBool(Constants.PopupStartAnim, true);
-        _animator.Play("MainPopup");
+        _animator.Play(Constants.MainPopupAnimName);
         
-        StartCoroutine(WaitForAnimationEnd("MainPopup"));
+        StartCoroutine(WaitForAnimationEnd(Constants.MainPopupAnimName));
     }
     
     private IEnumerator WaitForAnimationEnd(string stateName)
@@ -35,7 +26,7 @@ public class PupupHandler : MonoBehaviour
         );
         
         yield return new WaitUntil(() =>
-            _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f
+            _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= _vfxOnSet
         );
         
         RunVFX(); 
@@ -43,9 +34,11 @@ public class PupupHandler : MonoBehaviour
     
     private void RunVFX()
     {
-        _skyVFX.Play();
-        _leftPetard.Play();
-        _rightPetard.Play();
+        foreach (var effect in _vfxEffects)
+        {
+            effect.gameObject.SetActive(true);
+            effect.Play();
+        }
     }
 
     private void OnEnable()

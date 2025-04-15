@@ -7,4 +7,5 @@ public static class Constants
     public const int leftTimerValue = 23;
 
     public static readonly int PopupStartAnim = Animator.StringToHash("IsPlaying");
+    public static readonly string MainPopupAnimName = "MainPopup";
 }
