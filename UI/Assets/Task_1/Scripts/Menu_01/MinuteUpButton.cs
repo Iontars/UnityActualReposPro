@@ -1,10 +1,13 @@
 using System;
 
-public class MinuteUpButton : SpinButton
+namespace Task_1.Scripts.Menu_01
 {
-    public Action ClickMinuteUpButton;
-    private void OnMouseDown()
+    public class MinuteUpButton : SpinButton
     {
-        ClickMinuteUpButton?.Invoke();
+        public Action ClickMinuteUpButton;
+        private void OnMouseDown()
+        {
+            ClickMinuteUpButton?.Invoke();
+        }
     }
 }

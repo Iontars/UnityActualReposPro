@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public abstract class InteractionElement : MonoBehaviour
+namespace Task_1.Scripts.Main
 {
-    protected void DoAction(int value)
+    public abstract class InteractionElement : MonoBehaviour
     {
+        protected void DoAction(int value)
+        {
         
+        }
     }
 }

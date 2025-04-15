@@ -1,10 +1,13 @@
 using System;
 
-public class SecondDownButton : SpinButton
+namespace Task_1.Scripts.Menu_01
 {
-    public Action ClickSecondDownButton;
-    private void OnMouseDown()
+    public class SecondDownButton : SpinButton
     {
-        ClickSecondDownButton?.Invoke();
+        public Action ClickSecondDownButton;
+        private void OnMouseDown()
+        {
+            ClickSecondDownButton?.Invoke();
+        }
     }
 }

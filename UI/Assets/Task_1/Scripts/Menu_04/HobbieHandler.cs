@@ -1,9 +1,13 @@
+using Task_1.Scripts.Main;
 using UnityEngine;
 
-public class HobbieHandler : UIHandler<HobbieFlag>
+namespace Task_1.Scripts.Menu_04
 {
-    protected override void SetActivePanel(GameObject go)
+    public class HobbieHandler : UIHandler<HobbieFlag>
     {
-        go.SetActive(!go.activeSelf);
+        protected override void SetActivePanel(GameObject go)
+        {
+            go.SetActive(!go.activeSelf);
+        }
     }
 }

@@ -1,11 +1,14 @@
 
 using UnityEngine;
 
-public static class Constants
+namespace Task_1.Scripts.Main
 {
-    public const int rightTimerValue = 59;
-    public const int leftTimerValue = 23;
+    public static class Constants
+    {
+        public const int rightTimerValue = 59;
+        public const int leftTimerValue = 23;
 
-    public static readonly int PopupStartAnim = Animator.StringToHash("IsPlaying");
-    public static readonly string MainPopupAnimName = "MainPopup";
+        public static readonly int PopupStartAnim = Animator.StringToHash("IsPlaying");
+        public static readonly string MainPopupAnimName = "MainPopup";
+    }
 }

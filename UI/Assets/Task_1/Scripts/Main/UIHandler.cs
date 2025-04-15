@@ -1,37 +1,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class UIHandler<T> : MonoBehaviour  where T: UIPanel
+namespace Task_1.Scripts.Main
 {
-    [Header("Элементы UI")]
-    [SerializeField] private List<T> elements;
-    
-    protected virtual void SetActivePanel(GameObject go)
+    public abstract class UIHandler<T> : MonoBehaviour  where T: UIPanel
     {
-        foreach (var item in elements)
+        [Header("Элементы UI")]
+        [SerializeField] private List<T> elements;
+    
+        protected virtual void SetActivePanel(GameObject go)
         {
-            if (go == item.MyChild)
+            foreach (var item in elements)
             {
-                go.SetActive(true);
-                continue;
+                if (go == item.MyChild)
+                {
+                    go.SetActive(true);
+                    continue;
+                }
+                item?.MyChild.SetActive(false);
             }
-            item?.MyChild.SetActive(false);
         }
-    }
     
-    private void OnEnable()
-    {
-        foreach (var item in elements)
+        private void OnEnable()
         {
-            item.OnSelect += SetActivePanel;
-        } 
-    }
+            foreach (var item in elements)
+            {
+                item.OnSelect += SetActivePanel;
+            } 
+        }
     
-    public void OnDisable()
-    {
-        foreach (var item in elements)
+        public void OnDisable()
         {
-            item.OnSelect -= SetActivePanel;
-        } 
+            foreach (var item in elements)
+            {
+                item.OnSelect -= SetActivePanel;
+            } 
+        }
     }
 }

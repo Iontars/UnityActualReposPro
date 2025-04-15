@@ -1,9 +1,13 @@
+using Task_1.Scripts.Main;
 using UnityEngine;
 
-public class FlagButtonHandler : UIHandler<FlagButtonPanel>
+namespace Task_1.Scripts.Menu_02
 {
-    protected override void SetActivePanel(GameObject go)
+    public class FlagButtonHandler : UIHandler<FlagButtonPanel>
     {
-        go.SetActive(!go.activeSelf);
+        protected override void SetActivePanel(GameObject go)
+        {
+            go.SetActive(!go.activeSelf);
+        }
     }
 }

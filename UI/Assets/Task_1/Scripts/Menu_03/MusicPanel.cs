@@ -1,4 +1,9 @@
-public class MusicPanel : UIPanel
+using Task_1.Scripts.Main;
+
+namespace Task_1.Scripts.Menu_03
 {
-    //Возможные расширения
+    public class MusicPanel : UIPanel
+    {
+        //Возможные расширения
+    }
 }
