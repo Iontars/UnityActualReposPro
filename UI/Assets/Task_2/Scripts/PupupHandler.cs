@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -23,11 +24,28 @@ public class PupupHandler : MonoBehaviour
         _animator.gameObject.SetActive(true);
         _animator.SetBool(Constants.PopupStartAnim, true);
         _animator.Play("MainPopup");
+        
+        StartCoroutine(WaitForAnimationEnd("MainPopup"));
     }
-
+    
+    private IEnumerator WaitForAnimationEnd(string stateName)
+    {
+        yield return new WaitUntil(() =>
+            _animator.GetCurrentAnimatorStateInfo(0).IsName(stateName)
+        );
+        
+        yield return new WaitUntil(() =>
+            _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f
+        );
+        
+        RunVFX(); 
+    }
+    
     private void RunVFX()
     {
-        
+        _skyVFX.Play();
+        _leftPetard.Play();
+        _rightPetard.Play();
     }
 
     private void OnEnable()
