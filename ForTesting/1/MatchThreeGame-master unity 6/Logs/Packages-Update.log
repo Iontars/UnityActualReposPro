@@ -47,3 +47,11 @@ The following packages were added:
   com.unity.multiplayer.center@1.0.0
 The following packages were updated:
   com.unity.ugui from version 1.0.0 to 2.0.0
+
+=== Wed Apr 16 17:58:30 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 3.0.34 to 3.0.35

@@ -111,6 +111,11 @@ public class ShapesManager : MonoBehaviour
             for (int column = 0; column < Constants.Columns; column++)
             {
 
+                if (row == 3 && column == 4)
+                {
+                    continue;
+                }
+
                 GameObject newCandy = GetRandomCandy();
 
                 //check if two previous horizontal are of the same type
