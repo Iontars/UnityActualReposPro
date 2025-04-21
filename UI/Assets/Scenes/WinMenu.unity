@@ -694,6 +694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShineBackground
       objectReference: {fileID: 0}
+    - target: {fileID: 8715843990569682053, guid: 7884e2d97dc95ef47bc1930f568ba1de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
