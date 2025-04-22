@@ -471,6 +471,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3492855747040199727, guid: e8d7b395f292406438c496d0f8b9c581, type: 3}
   m_PrefabInstance: {fileID: 7555432960889262904}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1009390408 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 438311340992035960, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+  m_PrefabInstance: {fileID: 2975182570728643377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1062232592 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1545463234529258198, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
@@ -666,6 +677,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 656243267}
     m_Modifications:
+    - target: {fileID: 321288857839815233, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_Name
+      value: MinutesText
+      objectReference: {fileID: 0}
+    - target: {fileID: 582937639693690398, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
+      propertyPath: m_Name
+      value: HoursText
+      objectReference: {fileID: 0}
     - target: {fileID: 2434897430500464148, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -739,27 +758,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 1563742412416171731, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1966703225413467262, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7770634762965804172, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6219192979148157398, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6955665083389959806, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 2405578674658195157, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8425437027475441441, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7690824817429447377, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 19064aa6a35ba0e4bb8650e3c2a15573, type: 3}
@@ -939,7 +937,7 @@ PrefabInstance:
     - target: {fileID: 7413315413564889595, guid: b5a658e71858c5b439e8a63ec2b77d59, type: 3}
       propertyPath: timeMinuteText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1009390408}
     - target: {fileID: 7413315413564889595, guid: b5a658e71858c5b439e8a63ec2b77d59, type: 3}
       propertyPath: timeSecondText
       value: 
