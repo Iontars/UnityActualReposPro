@@ -482,6 +482,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6112019035234029249, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240160690347461905, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9523913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240160690347461905, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8626
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749074064715367656, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_Size.y
+      value: 3.8952806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749074064715367656, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7612809815988909649, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091336726894558399, guid: 09d40518e30f37d40be321b08daaba00, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
