@@ -9,6 +9,7 @@ namespace Task_2.Scripts
     public class PupupHandler : MonoBehaviour
     {
         [SerializeField] private Animator _animator;
+        [SerializeField] private Animator _backgroundAnimator;
         [SerializeField] private StartAnimButton _startAnimButton;
         [SerializeField] private List<VisualEffect> _vfxEffects;
         private float _vfxOnSet = 0.5f;
@@ -16,6 +17,12 @@ namespace Task_2.Scripts
         private void RunPopupAnim()
         {
             StopVFX();
+            _backgroundAnimator.gameObject.SetActive(true);
+            _backgroundAnimator.SetBool("isRun", true);
+            _backgroundAnimator.SetBool("isRun_2", true);
+            _backgroundAnimator.Play("BackgroundFade");
+            _backgroundAnimator.Play("BoardFade");
+            
             _animator.gameObject.SetActive(true);
             _animator.SetBool(Constants.PopupStartAnim, true);
             _animator.Play(Constants.MainPopupAnimName);
