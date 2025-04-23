@@ -12,11 +12,13 @@ namespace Task_2.Scripts
         [SerializeField] private Animator _backgroundAnimator;
         [SerializeField] private StartAnimButton _startAnimButton;
         [SerializeField] private List<VisualEffect> _vfxEffects;
+        [SerializeField] private List<ParticleSystem> _particleSystems;
         private float _vfxOnSet = 0.5f;
     
         private void RunPopupAnim()
         {
             StopVFX();
+            StopVFXParticle();
             _backgroundAnimator.gameObject.SetActive(true);
             _backgroundAnimator.SetBool("isRun", true);
             _backgroundAnimator.SetBool("isRun_2", true);
@@ -40,7 +42,8 @@ namespace Task_2.Scripts
                 _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= _vfxOnSet
             );
         
-            RunVFX(); 
+            RunVFX();
+            RunVFXParticle();
         }
 
         private void StopVFX()
@@ -60,6 +63,27 @@ namespace Task_2.Scripts
                 effect.Play();
             }
         }
+        
+        private void StopVFXParticle()
+        {
+            foreach (var effect in _particleSystems)
+            {
+                effect.gameObject.SetActive(false);
+                effect.Stop();
+            }
+        }
+    
+        private void RunVFXParticle()
+        {
+            foreach (var effect in _particleSystems)
+            {
+                effect.gameObject.SetActive(true);
+                effect.Play();
+            }
+        }
+        
+        
+        
 
         private void OnEnable() => _startAnimButton.StartButtonPressed += RunPopupAnim;
     
